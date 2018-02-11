@@ -6,10 +6,10 @@ sudo apt-get update -y
 sudo apt-get install -y screen fglrx-updates git vim ssh wget
 
 # autorun miner
-sudo mv rc.local /etc/rc.local
+sudo cp rc.local /etc/rc.local
 
 # boot to cli
-sudo mv grub /etc/default/grub
+sudo cp grub /etc/default/grub
 sudo update-grub
 
 # open port 22 for ssh

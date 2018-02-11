@@ -11,7 +11,7 @@
 #
 # By default this script does nothing.
 
-cd /home/noahpocz/Desktop/
+cd /home/noahpocz/Desktop/crypto
 ./init_miner
 
 exit 0
