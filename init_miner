@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo Initializing claymore...
+sleep 15
+sudo xinit &
+sleep 15
+sudo aticonfig --initial --adapter=all
+sudo aticonfig --od-enable
+screen -dm bash -c "python3 mine.py"
