@@ -1,2 +1,5 @@
 *.log
 claymore/
+.DS_Store
+.idea/
+virtualenv/
